@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="64px" height="64px" viewBox="0 0 64 64" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: sketchtool 57.1 (101010) - https://sketch.com -->
+    <title>FC5A4B8C-3EE3-49AE-9B6A-4BD1C52EF455</title>
+    <desc>Created with sketchtool.</desc>
+    <defs>
+        <filter x="-51.1%" y="-51.1%" width="202.2%" height="202.2%" filterUnits="objectBoundingBox" id="filter-1">
+            <feOffset dx="2" dy="1" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="5" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.31326486 0" type="matrix" in="shadowBlurOuter1" result="shadowMatrixOuter1"></feColorMatrix>
+            <feMerge>
+                <feMergeNode in="shadowMatrixOuter1"></feMergeNode>
+                <feMergeNode in="SourceGraphic"></feMergeNode>
+            </feMerge>
+        </filter>
+    </defs>
+    <g id="Desktop_Ruffles" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Landing_Desktop-Copy" transform="translate(-1109.000000, -1905.000000)">
+            <g id="flecha" filter="url(#filter-1)" transform="translate(1117.000000, 1914.000000)">
+                <circle id="Oval" fill="#FFFFFF" cx="22.1889632" cy="22.173913" r="22.173913"></circle>
+                <path d="M31.5289506,20.7552818 L23.7413874,12.8525494 C23.4385831,12.5450102 23.0755281,12.3913043 22.6528506,12.3913043 C22.2380503,12.3913043 21.879227,12.5450102 21.5761713,12.8525494 L20.6790712,13.762964 C20.3759736,14.054346 20.2244667,14.4185204 20.2244667,14.8555721 C20.2244667,15.2925388 20.3759736,15.6567132 20.6790712,15.9481802 L24.1840507,19.5170889 L15.7623876,19.5170889 C15.3477967,19.5170889 15.0108447,19.6687964 14.7516573,19.9723388 C14.49247,20.2758812 14.3628763,20.6420964 14.3628763,21.0708995 L14.3628763,22.6247952 C14.3628763,23.0537258 14.4925119,23.4198135 14.7516573,23.7233559 C15.0108028,24.0268983 15.3477967,24.1784782 15.7623876,24.1784782 L24.1838831,24.1784782 L20.6789455,27.7355241 C20.3758479,28.0428507 20.224341,28.4111494 20.224341,28.8402076 C20.224341,29.2691808 20.3758479,29.637437 20.6789455,29.9447636 L21.5760456,30.8551782 C21.8871878,31.1546388 22.2460111,31.3043478 22.6527249,31.3043478 C23.0674834,31.3043478 23.4304547,31.1546388 23.7413036,30.8551782 L31.5288249,22.9524458 C31.8239197,22.6529852 31.9715719,22.2848566 31.9715719,21.8477623 C31.9715719,21.402717 31.8239197,21.0383726 31.5289506,20.7552818 Z" id="Path" fill="#202020" fill-rule="nonzero"></path>
+            </g>
+        </g>
+    </g>
+</svg>

@@ -1,0 +1,291 @@
+@font-face {
+  font-family: "EndzoneSans-Bold";
+  src: url(../../../assets/fonts/EndzoneSans-Bold.ttf) format("truetype");
+}
+
+@font-face {
+  font-family: "EndzoneSans-Medium";
+  src: url(../../../assets/fonts/EndzoneSans-Medium.ttf) format("truetype");
+}
+
+@font-face {
+  font-family: "NewslabBlack";
+  src: url(../../../assets/fonts/NewslabBlack.ttf) format("truetype");
+}
+
+.home-container {
+  content: "";
+  clear: both;
+  display: table;
+  width: 100%;
+
+  .btn-primary {
+    border-radius: 20px;
+    display: inline;
+    background-color: #e6aa29;
+    color: #fff;
+    border: none;
+    padding: 4% 15% 4% 15%;
+    font-size: 4vw;
+    font-family: EndzoneSans-Medium;
+  }
+
+  .btn-secondary {
+    border-radius: 20px;
+    display: inline;
+    background-color: #cc163a;
+    color: #fff;
+    border: none;
+    padding: 4% 15% 4% 15%;
+    font-size: 4vw;
+    font-family: EndzoneSans-Medium;
+  }
+
+  .top {
+    background-image: url("../../../assets/images/bg_top_mob.png");
+    background-repeat: no-repeat;
+    background-size: auto;
+    height: 1142px;
+
+    .logos {
+      padding: 2%;
+      width: 63%;
+      float: left;
+      .img-logos {
+        height: 20vw;
+      }
+    }
+
+    .sign {
+      width: 23%;
+      text-align: right;
+
+      .btn-sign {
+        border-radius: 1%;
+        display: none;
+      }
+
+      .img-sign {
+        display: inline;
+      }
+    }
+
+    .slogan {
+      .slogan-title {
+        text-align: center;
+      }
+      .title {
+        font-family: NewslabBlack;
+        color: white;
+        font-size: 5.4vw;
+
+        .oro {
+          color: #e6aa29;
+        }
+      }
+
+      .col-middle {
+        text-align: center;
+      }
+
+      .col-r-logos2 {
+        text-align: center;
+      }
+
+      .img-logos2 {
+        height: 11.5vw;
+      }
+
+      .subtitle {
+        font-family: EndzoneSans-Medium;
+        color: white;
+        font-size: 4vw;
+      }
+
+      .col-l-slogan {
+        display: none;
+      }
+
+      .col-r-slogan {
+        display: none;
+      }
+
+      .col-c-slogan {
+        padding: 0px 15px 0px 15px;
+      }
+    }
+
+    .pet {
+      display: none;
+    }
+  }
+
+  .mecanica {
+    background-image: url("../../../assets/images/bg_mecanica_mob.png");
+    background-repeat: no-repeat;
+    background-size: auto;
+    height: 1842px;
+    margin-top: -164px;
+    z-index: -1;
+    position: relative;
+  }
+
+  .ranking {
+    background-image: url("../../../assets/images/bg_ranking_mob.png");
+    background-repeat: no-repeat;
+    background-size: auto;
+    height: 1304px;
+    margin-top: -80px;
+    z-index: -2;
+    position: relative;
+  }
+}
+
+[class*="col-"] {
+  float: left;
+  padding: 2%;
+//   border: 1px solid #ffffff;
+}
+
+[class*="col-"] {
+  /* Para mobile: */
+  width: -webkit-fill-available;
+}
+
+@media only screen and (min-width: 750px) {
+  /* Para tabletas: */
+  .home-container {
+    .btn-primary {
+      border-radius: 12px;
+      display: inline;
+      background-color: #e6aa29;
+      color: #fff;
+      border: none;
+      padding: 8%;
+      font-size: 1vw;
+      font-family: EndzoneSans-Medium;
+    }
+
+    .btn-secondary {
+      border-radius: 12px;
+      display: inline;
+      background-color: #cc163a;
+      color: #fff;
+      border: none;
+      padding: 8%;
+      font-size: 1vw;
+      font-family: EndzoneSans-Medium;
+    }
+    .top {
+      background-image: url("../../../assets/images/bg_top.png");
+      background-repeat: no-repeat;
+      background-size: auto;
+      height: 817px;
+
+      .logos {
+        padding: 2%;
+        width: 66%;
+        float: left;
+
+        .img-logos {
+          height: 15vw;
+        }
+      }
+
+      .sign {
+        width: 23%;
+        text-align: right;
+
+        .btn-sign {
+          border-radius: 12px;
+          display: inline;
+          background-color: #ffffff;
+          color: crimson;
+          border: none;
+          padding: 3% 10% 3% 10%;
+          font-family: EndzoneSans-Medium;
+        }
+
+        .img-sign {
+          display: none;
+        }
+      }
+
+      .slogan {
+        width: 66%;
+        padding: 2%;
+
+        .title {
+          font-size: 1.4vw;
+
+          .oro {
+            color: #e6aa29;
+          }
+        }
+
+        .subtitle {
+          font-size: 1vw;
+        }
+
+        .col-l-slogan {
+          display: initial;
+          width: 15%;
+        }
+        .col-c-slogan {
+          width: 40%;
+        }
+        .col-r-slogan {
+          display: initial;
+          width: 20%;
+        }
+
+        .col-r-logos2 {
+          width: 20%;
+        }
+
+        .img-logos2 {
+          height: 3.2vw;
+        }
+        .col-middle {
+          width: 45%;
+        }
+        .left {
+          text-align: left;
+        }
+        .right {
+          text-align: right;
+        }
+      }
+
+      .pet {
+        width: 20%;
+        margin: -12% 0% 0% -22%;
+        display: initial;
+
+        .img-pet {
+          height: 40vw;
+        }
+      }
+    }
+
+    .mecanica {
+      background-image: url("../../../assets/images/bg_mecanica.png");
+      background-repeat: no-repeat;
+      background-size: auto;
+      height: 1004px;
+      margin-top: -180px;
+      z-index: -1;
+      position: relative;
+    }
+
+    .ranking {
+      background-image: url("../../../assets/images/bg_ranking.png");
+      background-repeat: no-repeat;
+      background-size: auto;
+      height: 1050px;
+      margin-top: -80px;
+      z-index: -2;
+      position: relative;
+    }
+  }
+}
